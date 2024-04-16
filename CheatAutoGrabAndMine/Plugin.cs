@@ -67,7 +67,7 @@ namespace CheatAutoGrabAndMine
 
             modEnabled = Config.Bind("General", "Enabled", true, "Is this mod enabled");
             debugMode = Config.Bind("General", "DebugMode", false, "Enable detailed logging? Chatty!");
-            range = Config.Bind("General", "Range", 20, "The range to look for items within.");
+            range = Config.Bind("General", "Range", 200, "The range to look for items within.");
             key = Config.Bind("General", "Key", "<Keyboard>/V", "The input action shortcut to toggle automatic scanning and taking.");
             scanPeriod = Config.Bind("General", "Period", 3, "How often scan the surroundings for items go grab or mine. Seconds");
             scanEnabled = Config.Bind("General", "Scanning", false, "If true, the mod is actively scanning for items to take.");
