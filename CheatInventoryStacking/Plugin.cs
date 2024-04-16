@@ -109,8 +109,8 @@ namespace CheatInventoryStacking
 
             debugMode = Config.Bind("General", "DebugMode", false, "Produce detailed logs? (chatty)");
 
-            stackSize = Config.Bind("General", "StackSize", 10, "The stack size of all item types in the inventory");
-            fontSize = Config.Bind("General", "FontSize", 25, "The font size for the stack amount");
+            stackSize = Config.Bind("General", "StackSize", 1000, "The stack size of all item types in the inventory");
+            fontSize = Config.Bind("General", "FontSize", 15, "The font size for the stack amount");
             stackTradeRockets = Config.Bind("General", "StackTradeRockets", false, "Should the trade rockets' inventory stack?");
             stackShredder = Config.Bind("General", "StackShredder", false, "Should the shredder inventory stack?");
             stackOptimizer = Config.Bind("General", "StackOptimizer", false, "Should the Optimizer's inventory stack?");
