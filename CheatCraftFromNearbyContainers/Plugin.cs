@@ -78,7 +78,7 @@ namespace CheatCraftFromNearbyContainers
 
             modEnabled = Config.Bind("General", "Enabled", true, "Is this mod enabled");
             debugMode = Config.Bind("General", "DebugMode", false, "Enable detailed logging? Chatty!");
-            range = Config.Bind("General", "Range", 20, "The range to look for containers within.");
+            range = Config.Bind("General", "Range", 200, "The range to look for containers within.");
             key = Config.Bind("General", "Key", "<Keyboard>/Home", "The input action shortcut toggle this mod on or off.");
 
             if (!key.Value.Contains("<"))
