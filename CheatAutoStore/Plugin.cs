@@ -49,7 +49,7 @@ namespace CheatAutoStore
 
             modEnabled = Config.Bind("General", "Enabled", true, "Is this mod enabled");
             debugMode = Config.Bind("General", "DebugMode", false, "Enable detailed logging? Chatty!");
-            range = Config.Bind("General", "Range", 20, "The range to look for containers within.");
+            range = Config.Bind("General", "Range", 200, "The range to look for containers within.");
             includeList = Config.Bind("General", "IncludeList", "", "The comma separated list of case-sensitive item ids to include only. If empty, all items are considered except the those listed in ExcludeList.");
             excludeList = Config.Bind("General", "ExcludeList", "", "The comma separated list of case-sensitive item ids to exclude. Only considered if IncludeList is empty.");
             key = Config.Bind("General", "Key", "<Keyboard>/K", "The input action shortcut to trigger the storing of items.");
